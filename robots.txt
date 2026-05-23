@@ -1,0 +1,24 @@
+# Өнгөт гялбаа — robots.txt
+# Хайлтын тоног (Google, Bing гм)-н зааварчилгаа
+
+User-agent: *
+Allow: /
+Disallow: /x9p-control.html
+Disallow: /data.json
+Disallow: /*.json$
+
+# Хортой/спам-той бот хаах
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
